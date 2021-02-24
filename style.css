@@ -1,6 +1,6 @@
 * {
   margin: 15px;
-  padding: 5;
+  padding: 5px;
 }
 .center-box {
   display: flex;
@@ -8,14 +8,14 @@
   align-items: center;
   height: 300px;
   background-color: rgb(8, 18, 151);
-  margin: 5% 20px;
+  
 }
 
 .center-item {
   height: 100px;
   width: 100px;
   background-color: rgb(240, 225, 195);
-  flex-direction: column;
+  
   
 }
 .nav {
@@ -24,15 +24,23 @@
   font-family: 'Montserrat', sans-serif;
   color: rgb(243, 239, 213);
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  padding: 15px;
 
 }
 
+.nav > img {
+  width: 110px;
+  height: 80px;
+
+}
 ul {
   height: 100px;
   list-style-type: none;
   display: flex;
   align-items: center;
+  text-decoration: none;
   
 }
 
@@ -42,13 +50,3 @@ ul {
   text-decoration: none;
  
 }
-
-.nav > img {
-  width: 110px;
-  height: 80px;
-
-}
-
-
-
-
